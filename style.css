@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Agrandir-GrandLight;
+    src: url("fonts/PPAgrandir-GrandLight.otf") format("opentype");
+}
+@font-face {
+    font-family: Agrandir-WideBlackItalic;
+    src: url("fonts/PPAgrandir-WideBlackItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: Agrandir-WideLight;
+    src: url("fonts/PPAgrandir-WideLight.otf") format("opentype");
+}
+@font-face {
+    font-family: Agrandir;
+    src: url("fonts/PPAgrandir-Regular.otf") format("opentype");
+}
+#date {
+    
+    background-color: #930505;
+    background-color: #f3afaf;
+    background-color: #ffdcdc;
+    min-height: 200px;
+    text-align: center;
+}
+
+#story {
+    background-color: #d80505;
+    background-color: #f3afaf;
+    background-color: #ffdcdc;
+    background-color: #6168eb;
+    min-height: 200px;
+    text-align: center;
+}
+
+#photos {
+    background-color: #d80505;
+    background-color: #e5b8aa;
+    background-color: #930505;
+    
+    
+    min-height: calc(420px + 20vw);
+    text-align: center;
+}
+
+#registry {
+    background-color: white;
+  
+    color:black;
+    color: #8186dd;
+    min-height: 150px;
+    text-align: center;
+    height: 100vh;
+}
+
+#registry img {
+    width: 30vw;
+    margin: 5vw;
+    max-width: 200px;
+    vertical-align: middle;
+}
+
+h1 {
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 400;
+    padding-top: 4vw;
+    font-size: min(45px,6vw);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Agrandir', sans-serif;
+    scroll-behavior: smooth;
+color: white;
+font-size: min(30px,4vw);
+}
+html {
+    scroll-behavior: smooth;
+
+}
+#menubar {
+    position: sticky;
+    top: 0px;
+    background-color: #4240ad;
+    background-color: #6168eb;
+    background-color: #d80505;
+    background-color: #ff3131;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+    z-index: 1;
+    height: min(6vw,55px);
+}
+
+#menubar a {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    
+   /* width: 22%;*/
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lexend', sans-serif;
+  
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rouge Script', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Agrandir', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: min(4vw,35px);
+    height: 6vw;
+}
+
+#menubar a:hover {
+color: #6168eb;
+}
+
+#photocontainer{
+    height:400px;
+    text-align: left;
+    width: 100%;
+overflow-x: scroll;
+overflow-y: hidden;
+
+}
+
+#inner {
+height: 400px;
+width: 14300px;
+}
+
+#inner img {
+    height:400px;
+    display: inline;
+}
+
+
+#website {
+    position: relative;
+    top: -10px;
+    
+}
+
+#story p {
+    width: 75%;
+    margin-left: 7.5%;
+    padding: 5vw;
+ font-size: 16px;   
+ text-align: justify;
+ background-color: rgba(0,0,0,0.2);
+ font-family: 'Poppins';
+}
