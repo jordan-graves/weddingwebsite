@@ -52,7 +52,7 @@
                 <br>179 Ponce De Leon Ave NE<br>Atlanta, Georgia 30308<br><br>
                 Saturday, November 18th, 2023<br>
                 5:00pm - 9:00pm
-
+<br>
                 <br><br><br>
             </div>
         </div>
@@ -102,7 +102,7 @@
         <div id="rsvp">
             <h1>RSVP</h1>
 
-            <form style="text-align: justify; padding: 10vw;" method="POST"
+            <form id="form" style="text-align: left; padding: 5vw;" method="POST" onsubmit="submitted()"
                 action="https://script.google.com/macros/s/AKfycbw2ouydEmIIYvI-1y6o5Fh57APi8RWtGKFDPTFCZ0SBWRpSHb9YYr8tXbopvckqTQ_4yg/exec"
                 target="dummyframe">
                 <input name="Name" type="text" placeholder="Name" required><br>
@@ -142,7 +142,7 @@
                     <option>4</option>
                     <option>5</option>
                 </select><br>
-                <label>Tony's Chicago Dog's</label>
+                <label>Tony's Chicago Dogs</label>
                 <select name="dogs" required>
                     <option>0</option>
                     <option>1</option>
@@ -169,13 +169,14 @@
                     <option>I'm planning to Uber/Lyft</option>
                 </select>
                 <br><br>
-                <button id="submit">Send RSVP</button>
+                <button id="submit" >Send RSVP</button>
             </form>
-
+<h2 id="confirmation">Thank you for RSVPing! We'll email you a reminder the week of our party.<br>-Thor & Jordan</h2>
             <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        </div><div id="accomdations">
             <h1>Recommendations</h1>
-            <span style="text-align: justify; left: 10vw; position: relative;">
-
+            <span style="text-align: left !important; display:block">
+<p style="text-align: left !important;">If you're visiting from out of town, or just making a staycation out of it, here are some of our recommendations of places to stay and eat in Midtown. </p>
             <h2>Hotels in the Area</h2>
             <li>Georgian Terrace</li>
             <li>Hotel Indigo</li>

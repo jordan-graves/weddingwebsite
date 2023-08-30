@@ -29,6 +29,11 @@ if (num>4) {
 }
 }
 
+function submitted() {
+   document.getElementById("form").style.display="none";
+   document.getElementById("confirmation").style.display="block";
+}
+
 // let form;
 // let action;
 

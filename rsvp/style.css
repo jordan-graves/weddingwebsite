@@ -20,12 +20,18 @@
     background-color: #f3afaf;
     background-color: #ffdcdc;
     background-color: #355ebb;
-    background-color: #14caa6;
+   
     background-size: cover;
     background-position: center;
-    background-image: url("ivyHall.png");
+    background-image: url("../ivyHall.png");
    
     text-align: center;
+    min-height: 400px;
+
+}
+
+#confirmation {
+    display:none;
 }
 a {
     color: #14caa6;
@@ -33,7 +39,7 @@ a {
 
 #dateText {
     position: relative;
-    top: 0px;
+    top: 50px;
 }
 
 #story {
@@ -59,25 +65,43 @@ a {
 
 #registry, #faq, #rsvp {
     background-color: white;
-  
     color:black;
     color: #8186dd;
     color: #355ebb;
     min-height: 150px;
     text-align: center;
-    padding: 20px;
+    padding: 5vw;
+}
+
+#accomdations {
+    background-color:#1eafa0;
+    color:white;
+    min-height: 150px;
+    text-align: center;
+    padding: 10vw;
+    
 }
 
 
-
  h2 {
-    font-size: min(30px,4vw);
+    font-size: min(20px,4vw);
  }
 
  p, input, select, button, form {
-    font-size: min(25px,3.5vw);
+    font-size: min(20px,3.5vw);
     text-align: justify;
     
+ }
+
+ button {
+    background-color: #355ebb;
+    color: white;
+    border: none;
+    padding: 5px;
+ }
+
+ select {
+    color:#424242;
  }
 
  input {
@@ -102,7 +126,7 @@ h1 {
     text-decoration: none;
     font-weight: 400;
     padding-top: 4vw;
-    font-size: min(45px,6vw);
+    font-size: min(30px,6vw);
 }
 body {
     margin: 0px;
@@ -111,7 +135,7 @@ body {
     font-family: 'Agrandir', sans-serif;
     scroll-behavior: smooth;
 color: white;
-font-size: min(30px,4vw);
+font-size: min(20px,4vw);
 }
 html {
     scroll-behavior: smooth;
