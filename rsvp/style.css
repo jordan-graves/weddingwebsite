@@ -1,18 +1,18 @@
 @font-face {
     font-family: Agrandir-GrandLight;
-    src: url("fonts/PPAgrandir-GrandLight.otf") format("opentype");
+    src: url("../fonts/PPAgrandir-GrandLight.otf") format("opentype");
 }
 @font-face {
     font-family: Agrandir-WideBlackItalic;
-    src: url("fonts/PPAgrandir-WideBlackItalic.otf") format("opentype");
+    src: url("../fonts/PPAgrandir-WideBlackItalic.otf") format("opentype");
 }
 @font-face {
     font-family: Agrandir-WideLight;
-    src: url("fonts/PPAgrandir-WideLight.otf") format("opentype");
+    src: url("../fonts/PPAgrandir-WideLight.otf") format("opentype");
 }
 @font-face {
     font-family: Agrandir;
-    src: url("fonts/PPAgrandir-Regular.otf") format("opentype");
+    src: url("../fonts/PPAgrandir-Regular.otf") format("opentype");
 }
 #date {
     
@@ -20,16 +20,20 @@
     background-color: #f3afaf;
     background-color: #ffdcdc;
     background-color: #355ebb;
+    background-color: #14caa6;
     background-size: cover;
     background-position: center;
     background-image: url("ivyHall.png");
-    min-height: 625px;
+   
     text-align: center;
+}
+a {
+    color: #14caa6;
 }
 
 #dateText {
     position: relative;
-    top: 235px;
+    top: 0px;
 }
 
 #story {
@@ -53,7 +57,7 @@
     text-align: center;
 }
 
-#registry {
+#registry, #faq, #rsvp {
     background-color: white;
   
     color:black;
@@ -61,13 +65,35 @@
     color: #355ebb;
     min-height: 150px;
     text-align: center;
-    height: 100vh;
+    padding: 20px;
 }
 
-#registry img {
-    width: 30vw;
+
+
+ h2 {
+    font-size: min(30px,4vw);
+ }
+
+ p, input, select, button, form {
+    font-size: min(25px,3.5vw);
+    text-align: justify;
+    
+ }
+
+ input {
+    width: 100%;
+ }
+ select {
+    max-width: 100%;
+ }
+
+ #addGuests, #addGuests1, #addGuests2, #addGuests3, #addGuests4 {
+    display: none;
+    
+ }
+#faq img, #rsvp img, #registry img {
+    width: 80vw;
     margin: 5vw;
-    max-width: 200px;
     vertical-align: middle;
 }
 
