@@ -79,7 +79,7 @@ function draw() {
   } else if (count == 3 && !alreadyTaken) {
     textSize(60);
     textAlign(CENTER);
-    let countDown = 15 - int((millis() - timerStart) / 1000);
+    let countDown = 20 - int((millis() - timerStart) / 1000);
     push();
     translate(320, 150);
     rotate(-PI / 20);
