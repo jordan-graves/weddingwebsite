@@ -14,7 +14,7 @@ function setup() {
   // createCanvas(640, 740);
   createCanvas(1920, 1080);
   //fullScreen();
-  photostrip = loadImage("photostrip.png");
+  photostrip = loadImage("photostrip2.png");
   photos[0] = createGraphics(640, 480);
   photos[1] = createGraphics(640, 480);
   photos[2] = createGraphics(640, 480);
