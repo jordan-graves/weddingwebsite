@@ -198,7 +198,7 @@ function reset() {
   photos[0] = createGraphics(640, 480);
   photos[1] = createGraphics(640, 480);
   photos[2] = createGraphics(640, 480);
-  printOut = createGraphics(1200, 1800);
+  printOut = createGraphics(600, 1800);
   ready = true;
 }
 
