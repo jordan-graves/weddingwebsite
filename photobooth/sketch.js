@@ -83,7 +83,12 @@ function draw() {
     push();
     translate(320, 150);
     rotate(-PI / 20);
-    text("Printing\nYour  Photos!", 0, 0);
+    if (countDown>12) {
+      text("Preparing\nYour  Photos!", 0, 0);
+    } else {
+      text("Printing\nYour  Photos!", 0, 0);
+
+    }
     pop();
     textSize(30);
     text("Choose number of copies", 320, 320);
@@ -120,6 +125,7 @@ function draw() {
     let countDown = 5 - int((millis() - timerStart) / 1000);
     textSize(150);
     textAlign(CENTER);
+    if (countDown>-1)
     text(countDown, 320, 300);
     // println("CD:"+countDown);
     if (countDown == 0) {
