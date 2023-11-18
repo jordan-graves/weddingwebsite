@@ -94,16 +94,16 @@ function draw() {
   } else if (count == 3 && !alreadyTaken) {
     textSize(60);
     textAlign(CENTER);
-    let countDown = 20 - int((millis() - timerStart) / 1000);
+    let countDown = 10 - int((millis() - timerStart) / 1000);
     push();
     translate(320, 150);
     rotate(-PI / 20);
-    if (countDown>12) {
+   
       text("Preparing\nYour  Photos!", 0, 0);
-    } else {
+  
           textSize(30);
       
-      text("Due to technical\ndifficulties the photos\nwill be online!", 0, 0);
+      text("Due to technical\ndifficulties the photos\nwill be online!", 0, 200);
 
     }
     pop();
