@@ -101,36 +101,38 @@ function draw() {
     if (countDown>12) {
       text("Preparing\nYour  Photos!", 0, 0);
     } else {
-      text("Printing\nYour  Photos!", 0, 0);
+          textSize(30);
+      
+      text("Due to technical\ndifficulties the photos\nwill be online!", 0, 0);
 
     }
     pop();
     textSize(30);
-    text("Choose number of copies", 320, 320);
+  //  text("Choose number of copies", 320, 320);
 
     fill(255);
-    ellipse(320, 400, 80, 80);
-    ellipse(320 - 160, 400, 80, 80);
-    ellipse(320 + 160, 400, 80, 80);
+  //  ellipse(320, 400, 80, 80);
+  //  ellipse(320 - 160, 400, 80, 80);
+  //  ellipse(320 + 160, 400, 80, 80);
 
 
     fill(255);
     stroke(255, 100, 100);
     strokeWeight(15);
     if (numCopies == 1) {
-      ellipse(320 - 160, 400, 120, 120);
+ //     ellipse(320 - 160, 400, 120, 120);
     } else if (numCopies == 2) {
-      ellipse(320, 400, 120, 120);
+//      ellipse(320, 400, 120, 120);
     } else if (numCopies == 3) {
-      ellipse(320 + 160, 400, 120, 120);
+//      ellipse(320 + 160, 400, 120, 120);
     }
     strokeWeight(1);
     
         fill(0);
     textSize(60);
-    text("1", 160, 420);
-    text("2", 320, 420);
-    text("3", 480, 420);
+  //  text("1", 160, 420);
+  //  text("2", 320, 420);
+  //  text("3", 480, 420);
     
     // println(countDown);
     if (countDown == 0) {
