@@ -234,5 +234,5 @@ function printImage() {
   //   catch(Exception e) {
   //     System.out.println("Nope");
   //   }
-  photoData.push(data);
+  photoData.push(printOut.elt.toDataURL());
 }
