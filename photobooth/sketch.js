@@ -105,7 +105,7 @@ function draw() {
       
       text("Due to technical\ndifficulties the photos\nwill be online!", 0, 200);
 
-    }
+    
     pop();
     textSize(30);
   //  text("Choose number of copies", 320, 320);
