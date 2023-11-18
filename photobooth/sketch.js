@@ -27,6 +27,21 @@ function setup() {
   cam = createCapture(640, 480);
   cam.hide();
   textFont("obviously");
+    const firebaseConfig = {
+    apiKey: "AIzaSyBGykFtzq2KD3aYZAYDqLQqfgylJdnO_qo",
+    authDomain: "apcs-finals.firebaseapp.com",
+    databaseURL: "https://apcs-finals-default-rtdb.firebaseio.com",
+    projectId: "apcs-finals",
+    storageBucket: "apcs-finals.appspot.com",
+    messagingSenderId: "990129759654",
+    appId: "1:990129759654:web:5f08c0e1a4af8946d59b67",
+    measurementId: "G-CQBFFJZJN7",
+  };
+
+  //inititalize database
+  firebase.initializeApp(firebaseConfig);
+  database = firebase.database();
+  photoData = database.ref("photobooth");
 }
 
 function draw() {
@@ -217,4 +232,5 @@ function printImage() {
   //   catch(Exception e) {
   //     System.out.println("Nope");
   //   }
+  photoData.push(data);
 }
