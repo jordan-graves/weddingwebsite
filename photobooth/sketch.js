@@ -195,7 +195,7 @@ function takeNextPicture() {
     printOut.image(photostrip, 0, 0, 1200, 1800);
 
     // image(printOut, 0, 0, 600, 900);
-    printOut.save("img" + photoNumber + ".png");
+   // printOut.save("img" + photoNumber + ".png");
 
     // alreadyTaken = false;
     // timerStart = millis();
